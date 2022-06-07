@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "ES2020",
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "paths": {
+            "@shared/*": ["./shared/*"]
+        },
+        "outDir": "./dist"
+
+    },
+    "include": [
+        "**/*.ts"
+    ]
+}
